@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function App() {
+function State() {
   function computeInitialState() {
     console.log('some calculations...')    
     return Math.trunc(Math.random() * 20)
@@ -40,4 +40,4 @@ function updateTitle(){
   );
 }
 
-export default App;
+export default State;
